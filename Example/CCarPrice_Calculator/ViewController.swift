@@ -19,13 +19,24 @@ class ViewController: UIViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
-        show(CCHelper(), sender: nil)
         
+        let enginName = "My Flutter Project"
+        let channelName = "com.pages.flutte"
+        let MessageChannelName = "messageChannel"
+        let helper = CCHelper(engineName: enginName, channelName: channelName, messageChannelName: MessageChannelName)
         
-//        let flutterVc = FlutterViewController.init()
-//        flutterVc.setInitialRoute("route")
-//        let messageChannel = FlutterMethodChannel.init(name: "com.pages.your/native_get", binaryMessenger: flutterVc.binaryMessenger)
-//        self.present(flutterVc, animated: true)
+        helper.jumpToFlutterPage(currentVc: self, methodChannelName: "com.xxxx.nnn") { callBack, result in
+            //获取flutter 返回的信息
+            print(callBack.method,callBack.arguments ?? "")
+            if callBack.method == "method_native_result_callback" {
+                //被动发送消息回传给flutter
+                result("flutter: hello")
+            }else if callBack.method == "2" {
+                helper.dismiss()
+            }
+        }
+        
+        helper.sendMessageToFluter(dic: ["a":"111"])
     }
     
 

@@ -16,7 +16,7 @@
 		63E54E53E2205362CD72351D0A7C8896 /* Pods-CCarPrice_Calculator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5650AE41BFEF77D581F402A06E75914 /* Pods-CCarPrice_Calculator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68ACA1C19638C989196256593035228E /* Pods-CCarPrice_Calculator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A671CA4A45121C35F425695E78C64 /* Pods-CCarPrice_Calculator_Tests-dummy.m */; };
 		8FC0355D4AD8E3C8A315EAE123B0F8DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C37E26F51A17368E46E0D5B783CDE116 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DED481D867355936842A84772EF807 /* ReplaceMe.swift */; };
+		C37E26F51A17368E46E0D5B783CDE116 /* CCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DED481D867355936842A84772EF807 /* CCHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +38,15 @@
 
 /* Begin PBXFileReference section */
 		003C448306BBE10C31A127422A3BA294 /* Pods-CCarPrice_Calculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCarPrice_Calculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		08252311CDA55D677831A97080EFFF28 /* image_picker_ios.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = image_picker_ios.xcframework; path = ios_frameworks/image_picker_ios.xcframework; sourceTree = "<group>"; };
+		08252311CDA55D677831A97080EFFF28 /* image_picker_ios.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = image_picker_ios.xcframework; path = ios_frameworks/image_picker_ios.xcframework; sourceTree = "<group>"; };
 		0DC36746CCD057B6A2AF82438F89D9D2 /* Pods-CCarPrice_Calculator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCarPrice_Calculator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		13781504C70E6799DDE0C76833A5AF6E /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Flutter.xcframework; path = ios_frameworks/Flutter.xcframework; sourceTree = "<group>"; };
+		13781504C70E6799DDE0C76833A5AF6E /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ios_frameworks/Flutter.xcframework; sourceTree = "<group>"; };
 		1F7D9354D9205275941E514F4458E465 /* Pods-CCarPrice_Calculator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CCarPrice_Calculator_Tests"; path = Pods_CCarPrice_Calculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A1F2F624E65980B44F6828A9569D00 /* CCarPrice_Calculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCarPrice_Calculator-Info.plist"; sourceTree = "<group>"; };
-		2673B1569337B00AF31B1B97DC02E136 /* CCarPrice_Calculator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCarPrice_Calculator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2673B1569337B00AF31B1B97DC02E136 /* CCarPrice_Calculator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CCarPrice_Calculator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2EDAF9794398522A540773ABDD1EBFB5 /* Pods-CCarPrice_Calculator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCarPrice_Calculator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		400A72F3073268AAE2E2F16D1AB7FDC2 /* CCarPrice_Calculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCarPrice_Calculator-umbrella.h"; sourceTree = "<group>"; };
-		42DED481D867355936842A84772EF807 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CCarPrice_Calculator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		42DED481D867355936842A84772EF807 /* CCHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCHelper.swift; path = CCarPrice_Calculator/Classes/CCHelper.swift; sourceTree = "<group>"; };
 		4CADCE436102AD134D2014714F487D84 /* CCarPrice_Calculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCarPrice_Calculator.modulemap; sourceTree = "<group>"; };
 		515E78B17ACACD1A452202AD93180FAC /* Pods-CCarPrice_Calculator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCarPrice_Calculator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		61D3FB222EFD6F2E7FE41CD06F420278 /* CCarPrice_Calculator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCarPrice_Calculator; path = CCarPrice_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,13 +54,13 @@
 		70445185757A90B77D36E9095A6C153B /* Pods-CCarPrice_Calculator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCarPrice_Calculator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		752279B97DBCF32A45A1803813EAD4D0 /* CCarPrice_Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCarPrice_Calculator.debug.xcconfig; sourceTree = "<group>"; };
-		75926871E75015E9E433C1420347DC11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		75926871E75015E9E433C1420347DC11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7D56DE997DA415DF3FF917FCD6DE44B6 /* Pods-CCarPrice_Calculator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCarPrice_Calculator_Tests-Info.plist"; sourceTree = "<group>"; };
 		8B62ADDD2037EA8E6008C00B77BC8400 /* Pods-CCarPrice_Calculator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCarPrice_Calculator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		900C0CD1076169E680C9284D8CCA8104 /* Pods-CCarPrice_Calculator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CCarPrice_Calculator_Example"; path = Pods_CCarPrice_Calculator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5650AE41BFEF77D581F402A06E75914 /* Pods-CCarPrice_Calculator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCarPrice_Calculator_Example-umbrella.h"; sourceTree = "<group>"; };
-		AACFFEB51B7CD6B91BABF553BE15326F /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FlutterPluginRegistrant.xcframework; path = ios_frameworks/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		AACFFEB51B7CD6B91BABF553BE15326F /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ios_frameworks/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
 		B208660E4BCE09A825EA8417C422BF57 /* Pods-CCarPrice_Calculator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCarPrice_Calculator_Example.modulemap"; sourceTree = "<group>"; };
 		B6C530FCD94F11D689A47BA024301CF2 /* Pods-CCarPrice_Calculator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCarPrice_Calculator_Example-Info.plist"; sourceTree = "<group>"; };
 		B7B0185BDC26FB4AF11EED2220F9E98C /* Pods-CCarPrice_Calculator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCarPrice_Calculator_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,11 +68,11 @@
 		BBDB61D89BF640A44B99C8A7785931CC /* CCarPrice_Calculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCarPrice_Calculator-dummy.m"; sourceTree = "<group>"; };
 		BE0E9670D1C3F11F703A05B976DF7638 /* Pods-CCarPrice_Calculator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCarPrice_Calculator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C32C0A9E19C9566B692B213EDC211ECC /* Pods-CCarPrice_Calculator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCarPrice_Calculator_Tests.modulemap"; sourceTree = "<group>"; };
-		CA5917244FAD06D1F03C5528C151E97B /* App.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = App.xcframework; path = ios_frameworks/App.xcframework; sourceTree = "<group>"; };
+		CA5917244FAD06D1F03C5528C151E97B /* App.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ios_frameworks/App.xcframework; sourceTree = "<group>"; };
 		D40CDD0E9AA4539BCA7EF60383F931FF /* CCarPrice_Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCarPrice_Calculator.release.xcconfig; sourceTree = "<group>"; };
 		D6262EFDC225E766E460F6D149599178 /* CCarPrice_Calculator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCarPrice_Calculator-prefix.pch"; sourceTree = "<group>"; };
 		DA80F29B7C041806C1E1F0EC50E70FD0 /* Pods-CCarPrice_Calculator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCarPrice_Calculator_Example-dummy.m"; sourceTree = "<group>"; };
-		E1F318DBF7E261612CB77882E7FCA8EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E1F318DBF7E261612CB77882E7FCA8EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F70A671CA4A45121C35F425695E78C64 /* Pods-CCarPrice_Calculator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCarPrice_Calculator_Tests-dummy.m"; sourceTree = "<group>"; };
 		F961564C9EA2EEFA6E1B6ABD7CCF2F15 /* Pods-CCarPrice_Calculator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCarPrice_Calculator_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,7 +196,7 @@
 		C28E6A1E3D35A5DDBD0F0D7DF0C54A40 /* CCarPrice_Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				42DED481D867355936842A84772EF807 /* ReplaceMe.swift */,
+				42DED481D867355936842A84772EF807 /* CCHelper.swift */,
 				8CABF4E2FA8487A6043624D6B2F7EC27 /* Frameworks */,
 				40A034C4C16279638AD158B1A0D6BA74 /* Pod */,
 				42978596CA850722E5B4B0157DB5517D /* Support Files */,
@@ -430,7 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D4276179958DABA923089666749D397 /* CCarPrice_Calculator-dummy.m in Sources */,
-				C37E26F51A17368E46E0D5B783CDE116 /* ReplaceMe.swift in Sources */,
+				C37E26F51A17368E46E0D5B783CDE116 /* CCHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,8 +606,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

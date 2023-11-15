@@ -44,22 +44,22 @@ open class CCHelper: UIViewController,FlutterStreamHandler {
         self.view.backgroundColor = .white
         let button = UIButton.init(frame: CGRect(x: 100, y: 200, width: 200, height: 100))
         button.backgroundColor = .red
-        button.addTarget(self, action: #selector(CCHelper.test), for: .touchUpInside)
+        button.addTarget(self, action: #selector(CCHelper.flutterTest), for: .touchUpInside)
         
         self.view.addSubview(button)
-//        var flutterEngine = FlutterEngine(name: "My Flutter Project")
-//        flutterEngine.run()
-//        flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
-//        flutterViewController.modalPresentationStyle = .fullScreen
-//        self.channel = FlutterEventChannel(name: "com.pages.flutter", binaryMessenger: flutterViewController.binaryMessenger)
-//        self.msgChannel = FlutterBasicMessageChannel.init(name: "messageChannel", binaryMessenger: flutterViewController.binaryMessenger)
-//
-//        self.channel?.setStreamHandler(self)
-//
-//        self.msgChannel?.setMessageHandler({ msg, replay in
-//            print("xxxxxxxx-----\(msg ?? "")")
-//        })
-//
+        var flutterEngine = FlutterEngine(name: "My Flutter Project")
+        flutterEngine.run()
+        flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+        flutterViewController.modalPresentationStyle = .fullScreen
+        self.channel = FlutterEventChannel(name: "com.pages.flutter", binaryMessenger: flutterViewController.binaryMessenger)
+        self.msgChannel = FlutterBasicMessageChannel.init(name: "messageChannel", binaryMessenger: flutterViewController.binaryMessenger)
+
+        self.channel?.setStreamHandler(self)
+
+        self.msgChannel?.setMessageHandler({ msg, replay in
+            print("xxxxxxxx-----\(msg ?? "")")
+        })
+
         
 //        flutterEngine1.run(withEntrypoint: nil)
         
