@@ -8,7 +8,7 @@ target 'CCarPrice_Calculator_Example' do
   target 'CCarPrice_Calculator_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 2.2.0'
-    pod 'Nimble', '~> 10.0.0'
+#    pod 'Quick', '~> 2.2.0'
+#    pod 'Nimble', '~> 10.0.0'
   end
 end

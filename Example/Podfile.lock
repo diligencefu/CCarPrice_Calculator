@@ -1,0 +1,16 @@
+PODS:
+  - CCarPrice_Calculator (0.1.0)
+
+DEPENDENCIES:
+  - CCarPrice_Calculator (from `../`)
+
+EXTERNAL SOURCES:
+  CCarPrice_Calculator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCarPrice_Calculator: 22f08191776d497f68003e1c427a1666118cac12
+
+PODFILE CHECKSUM: 2621b36c453d97c7eaffbd948e51af3c42138a1c
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,33 @@
+{
+  "name": "CCarPrice_Calculator",
+  "version": "0.1.0",
+  "summary": "A short description of CCarPrice_Calculator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Fu Yaohui/CCarPrice_Calculator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Fu Yaohui": "diligencefu@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/Fu Yaohui/CCarPrice_Calculator.git",
+    "tag": "0.1.0"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "armv7 arm64 x86_64"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CCarPrice_Calculator/Classes/**/*",
+  "vendored_frameworks": "ios_frameworks/*.framework",
+  "requires_arc": true,
+  "static_framework": true,
+  "ios": {
+    "vendored_frameworks": [
+      "ios_frameworks/*.framework"
+    ]
+  }
+}

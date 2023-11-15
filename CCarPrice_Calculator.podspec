@@ -27,11 +27,17 @@ TODO: Add long description of the pod here.
   s.author           = { 'Fu Yaohui' => 'diligencefu@sina.com' }
   s.source           = { :git => 'https://github.com/Fu Yaohui/CCarPrice_Calculator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.pod_target_xcconfig = {'VALID_ARCHS' => 'armv7 arm64 x86_64' }
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'CCarPrice_Calculator/Classes/**/*'
-  
+  s.vendored_frameworks   = 'ios_frameworks/*.framework'
+  s.requires_arc          = true
+#  s.dependency 'Flutter'
+  s.static_framework = true
+  arr = Array.new
+  arr.push('ios_frameworks/*.framework')
+  s.ios.vendored_frameworks = arr
+
   # s.resource_bundles = {
   #   'CCarPrice_Calculator' => ['CCarPrice_Calculator/Assets/*.png']
   # }

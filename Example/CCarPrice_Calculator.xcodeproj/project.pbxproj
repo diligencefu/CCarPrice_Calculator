@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		0194F0F2A426501A34479379 /* Pods_CCarPrice_Calculator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCarPrice_Calculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1487F969375EA47CC6F16EC9 /* Pods-CCarPrice_Calculator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCarPrice_Calculator_Tests.release.xcconfig"; path = "Target Support Files/Pods-CCarPrice_Calculator_Tests/Pods-CCarPrice_Calculator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1BE8F38B03C307AC6E1FF06E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1BE8F38B03C307AC6E1FF06E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4E340FD15D6DF02D4C3602FC /* Pods-CCarPrice_Calculator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCarPrice_Calculator_Example.release.xcconfig"; path = "Target Support Files/Pods-CCarPrice_Calculator_Example/Pods-CCarPrice_Calculator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		57FBF16C60D9B75A90E2AF5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		57FBF16C60D9B75A90E2AF5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CCarPrice_Calculator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCarPrice_Calculator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		7A9747AE62AEFFACEF1F2BAE /* Pods-CCarPrice_Calculator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCarPrice_Calculator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CCarPrice_Calculator_Tests/Pods-CCarPrice_Calculator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F9B85AD93107A8A47B7FE3F /* Pods_CCarPrice_Calculator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCarPrice_Calculator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF5BB2807FF02DC6136F924 /* Pods-CCarPrice_Calculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCarPrice_Calculator_Example.debug.xcconfig"; path = "Target Support Files/Pods-CCarPrice_Calculator_Example/Pods-CCarPrice_Calculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DCE951CADF8630B9BC5469D5 /* CCarPrice_Calculator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CCarPrice_Calculator.podspec; path = ../CCarPrice_Calculator.podspec; sourceTree = "<group>"; };
+		DCE951CADF8630B9BC5469D5 /* CCarPrice_Calculator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CCarPrice_Calculator.podspec; path = ../CCarPrice_Calculator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				7A9747AE62AEFFACEF1F2BAE /* Pods-CCarPrice_Calculator_Tests.debug.xcconfig */,
 				1487F969375EA47CC6F16EC9 /* Pods-CCarPrice_Calculator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				343C474D56B65D5E892D0CC4 /* [CP] Embed Pods Frameworks */,
+				6611FF1BA595ECFF00BEE724 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +189,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				078325F80DAC275983CAFEBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,44 +262,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		078325F80DAC275983CAFEBD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CCarPrice_Calculator_Tests/Pods-CCarPrice_Calculator_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCarPrice_Calculator_Tests/Pods-CCarPrice_Calculator_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		343C474D56B65D5E892D0CC4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CCarPrice_Calculator_Example/Pods-CCarPrice_Calculator_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CCarPrice_Calculator/CCarPrice_Calculator.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCarPrice_Calculator.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCarPrice_Calculator_Example/Pods-CCarPrice_Calculator_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3BC61099AA212D8A4CD933F2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,6 +282,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6611FF1BA595ECFF00BEE724 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCarPrice_Calculator_Example/Pods-CCarPrice_Calculator_Example-frameworks.sh",
+				"${PODS_ROOT}/../../ios_frameworks/Flutter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCarPrice_Calculator_Example/Pods-CCarPrice_Calculator_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E89F97AF619145EE4C02D4EC /* [CP] Check Pods Manifest.lock */ = {
@@ -500,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCarPrice_Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -515,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCarPrice_Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
