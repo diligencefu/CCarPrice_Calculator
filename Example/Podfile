@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CCarPrice_Calculator_Example' do
+  pod 'CCarPrice_Calculator', :path => '../'
+
+  target 'CCarPrice_Calculator_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 2.2.0'
+    pod 'Nimble', '~> 10.0.0'
+  end
+end
