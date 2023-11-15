@@ -176,10 +176,14 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../ios_frameworks/Flutter.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CCarPrice_Calculator/App.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CCarPrice_Calculator/Flutter.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CCarPrice_Calculator/image_picker_ios.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../ios_frameworks/Flutter.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CCarPrice_Calculator/App.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CCarPrice_Calculator/Flutter.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CCarPrice_Calculator/image_picker_ios.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

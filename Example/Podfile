@@ -3,7 +3,8 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'CCarPrice_Calculator_Example' do
-  pod 'CCarPrice_Calculator', :path => '../'
+#  pod 'CCarPrice_Calculator', :path => '../'
+  pod 'CCarPrice_Calculator', :git=>'git@github.com:diligencefu/CCarPrice_Calculator.git'
 
   target 'CCarPrice_Calculator_Tests' do
     inherit! :search_paths

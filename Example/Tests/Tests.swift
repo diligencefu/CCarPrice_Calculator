@@ -1,6 +1,6 @@
 // https://github.com/Quick/Quick
 
-import Nimble
+//import Nimble
 
 //class TableOfContentsSpec: QuickSpec {
 //    override func spec() {

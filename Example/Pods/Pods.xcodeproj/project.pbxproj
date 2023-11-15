@@ -9,68 +9,72 @@
 /* Begin PBXBuildFile section */
 		1433E3D356343F4D88F0DC080647FF72 /* Pods-CCarPrice_Calculator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA80F29B7C041806C1E1F0EC50E70FD0 /* Pods-CCarPrice_Calculator_Example-dummy.m */; };
 		1DC7CD359AC6C0709CF396F0F90D0761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4BCBF5EB75894A2211695756347127E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		246089D3A8AF6A98BF5EB9F9EB66C3DB /* CCarPrice_Calculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 400A72F3073268AAE2E2F16D1AB7FDC2 /* CCarPrice_Calculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FCAE5F2D670B7493B368B0A6ADF886C /* Pods-CCarPrice_Calculator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC1A29ACCB106673D506950F8CFB79C /* Pods-CCarPrice_Calculator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0E07FE8B9D595910DDFBB2A9AD24AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D4276179958DABA923089666749D397 /* CCarPrice_Calculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB61D89BF640A44B99C8A7785931CC /* CCarPrice_Calculator-dummy.m */; };
 		63E54E53E2205362CD72351D0A7C8896 /* Pods-CCarPrice_Calculator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5650AE41BFEF77D581F402A06E75914 /* Pods-CCarPrice_Calculator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68ACA1C19638C989196256593035228E /* Pods-CCarPrice_Calculator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A671CA4A45121C35F425695E78C64 /* Pods-CCarPrice_Calculator_Tests-dummy.m */; };
 		8FC0355D4AD8E3C8A315EAE123B0F8DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A3BB009215FAF22480B40BA0468C8E5C /* CCarPrice_Calculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5B7E8684A4982ACCB01FB3381F2B12 /* CCarPrice_Calculator-dummy.m */; };
-		C9591735B588141BE0E6335491A6A04D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE8ABFC48A31C8488CFF70BA485F9E /* ReplaceMe.swift */; };
-		CF8B6DB53F5D78B47879DB0462B192E4 /* CCarPrice_Calculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E452E271618B2EC0618CC1EE4A0C1D /* CCarPrice_Calculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C37E26F51A17368E46E0D5B783CDE116 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DED481D867355936842A84772EF807 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A9DFC56875B42A6A1FF32E6DE33BECF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B069EEFA9967C63BF7E9E22D969DC18F;
-			remoteInfo = CCarPrice_Calculator;
-		};
-		7E51EAE571B458DD9DCF14810097295E /* PBXContainerItemProxy */ = {
+		0417915C2CE58C4FA32C5E0CE3572293 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C8C475D646EA392B712F3D2581550C95;
 			remoteInfo = "Pods-CCarPrice_Calculator_Example";
 		};
+		B3049122B4214BD3291E7C64C39A2E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B069EEFA9967C63BF7E9E22D969DC18F;
+			remoteInfo = CCarPrice_Calculator;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		003C448306BBE10C31A127422A3BA294 /* Pods-CCarPrice_Calculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCarPrice_Calculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08252311CDA55D677831A97080EFFF28 /* image_picker_ios.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = image_picker_ios.xcframework; path = ios_frameworks/image_picker_ios.xcframework; sourceTree = "<group>"; };
 		0DC36746CCD057B6A2AF82438F89D9D2 /* Pods-CCarPrice_Calculator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCarPrice_Calculator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1C1813355E76325963875F02DF46EA1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		13781504C70E6799DDE0C76833A5AF6E /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Flutter.xcframework; path = ios_frameworks/Flutter.xcframework; sourceTree = "<group>"; };
 		1F7D9354D9205275941E514F4458E465 /* Pods-CCarPrice_Calculator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CCarPrice_Calculator_Tests"; path = Pods_CCarPrice_Calculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20E452E271618B2EC0618CC1EE4A0C1D /* CCarPrice_Calculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCarPrice_Calculator-umbrella.h"; sourceTree = "<group>"; };
-		2B663E16ADEBFFF582101D5946371D83 /* CCarPrice_Calculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCarPrice_Calculator.modulemap; sourceTree = "<group>"; };
+		24A1F2F624E65980B44F6828A9569D00 /* CCarPrice_Calculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCarPrice_Calculator-Info.plist"; sourceTree = "<group>"; };
+		2673B1569337B00AF31B1B97DC02E136 /* CCarPrice_Calculator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCarPrice_Calculator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2EDAF9794398522A540773ABDD1EBFB5 /* Pods-CCarPrice_Calculator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCarPrice_Calculator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4736D24E5A9F2F5EFADC7C11644AB326 /* CCarPrice_Calculator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCarPrice_Calculator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		400A72F3073268AAE2E2F16D1AB7FDC2 /* CCarPrice_Calculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCarPrice_Calculator-umbrella.h"; sourceTree = "<group>"; };
+		42DED481D867355936842A84772EF807 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CCarPrice_Calculator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4CADCE436102AD134D2014714F487D84 /* CCarPrice_Calculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCarPrice_Calculator.modulemap; sourceTree = "<group>"; };
 		515E78B17ACACD1A452202AD93180FAC /* Pods-CCarPrice_Calculator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCarPrice_Calculator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		61D3FB222EFD6F2E7FE41CD06F420278 /* CCarPrice_Calculator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCarPrice_Calculator; path = CCarPrice_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BADA004616DB9CA2679474F4A2C4079 /* CCarPrice_Calculator-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CCarPrice_Calculator-xcframeworks.sh"; sourceTree = "<group>"; };
 		70445185757A90B77D36E9095A6C153B /* Pods-CCarPrice_Calculator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCarPrice_Calculator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		752279B97DBCF32A45A1803813EAD4D0 /* CCarPrice_Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCarPrice_Calculator.debug.xcconfig; sourceTree = "<group>"; };
+		75926871E75015E9E433C1420347DC11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7D56DE997DA415DF3FF917FCD6DE44B6 /* Pods-CCarPrice_Calculator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCarPrice_Calculator_Tests-Info.plist"; sourceTree = "<group>"; };
 		8B62ADDD2037EA8E6008C00B77BC8400 /* Pods-CCarPrice_Calculator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCarPrice_Calculator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		900C0CD1076169E680C9284D8CCA8104 /* Pods-CCarPrice_Calculator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CCarPrice_Calculator_Example"; path = Pods_CCarPrice_Calculator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98DCF033DB41E71B27C49AF5F4B95C90 /* CCarPrice_Calculator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCarPrice_Calculator-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5650AE41BFEF77D581F402A06E75914 /* Pods-CCarPrice_Calculator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCarPrice_Calculator_Example-umbrella.h"; sourceTree = "<group>"; };
-		AE5D38167884B9993E619C499DA01510 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AACFFEB51B7CD6B91BABF553BE15326F /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FlutterPluginRegistrant.xcframework; path = ios_frameworks/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
 		B208660E4BCE09A825EA8417C422BF57 /* Pods-CCarPrice_Calculator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCarPrice_Calculator_Example.modulemap"; sourceTree = "<group>"; };
 		B6C530FCD94F11D689A47BA024301CF2 /* Pods-CCarPrice_Calculator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCarPrice_Calculator_Example-Info.plist"; sourceTree = "<group>"; };
 		B7B0185BDC26FB4AF11EED2220F9E98C /* Pods-CCarPrice_Calculator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCarPrice_Calculator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BBC1A29ACCB106673D506950F8CFB79C /* Pods-CCarPrice_Calculator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCarPrice_Calculator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BDD92C66873BB7100A6A53EB871D261C /* CCarPrice_Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCarPrice_Calculator.release.xcconfig; sourceTree = "<group>"; };
+		BBDB61D89BF640A44B99C8A7785931CC /* CCarPrice_Calculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCarPrice_Calculator-dummy.m"; sourceTree = "<group>"; };
 		BE0E9670D1C3F11F703A05B976DF7638 /* Pods-CCarPrice_Calculator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCarPrice_Calculator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C2FE8ABFC48A31C8488CFF70BA485F9E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CCarPrice_Calculator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C32C0A9E19C9566B692B213EDC211ECC /* Pods-CCarPrice_Calculator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCarPrice_Calculator_Tests.modulemap"; sourceTree = "<group>"; };
-		C497769E98FD88725D1516688497678B /* CCarPrice_Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCarPrice_Calculator.debug.xcconfig; sourceTree = "<group>"; };
-		C84E49879E3833B9C7E8A9E4B8033187 /* CCarPrice_Calculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCarPrice_Calculator-Info.plist"; sourceTree = "<group>"; };
+		CA5917244FAD06D1F03C5528C151E97B /* App.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = App.xcframework; path = ios_frameworks/App.xcframework; sourceTree = "<group>"; };
+		D40CDD0E9AA4539BCA7EF60383F931FF /* CCarPrice_Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCarPrice_Calculator.release.xcconfig; sourceTree = "<group>"; };
+		D6262EFDC225E766E460F6D149599178 /* CCarPrice_Calculator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCarPrice_Calculator-prefix.pch"; sourceTree = "<group>"; };
 		DA80F29B7C041806C1E1F0EC50E70FD0 /* Pods-CCarPrice_Calculator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCarPrice_Calculator_Example-dummy.m"; sourceTree = "<group>"; };
-		E0E4D3EE6F1F577BCDA2800307C2D6A9 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ios_frameworks/Flutter.framework; sourceTree = "<group>"; };
+		E1F318DBF7E261612CB77882E7FCA8EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F70A671CA4A45121C35F425695E78C64 /* Pods-CCarPrice_Calculator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCarPrice_Calculator_Tests-dummy.m"; sourceTree = "<group>"; };
 		F961564C9EA2EEFA6E1B6ABD7CCF2F15 /* Pods-CCarPrice_Calculator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCarPrice_Calculator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FC5B7E8684A4982ACCB01FB3381F2B12 /* CCarPrice_Calculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCarPrice_Calculator-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +86,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D83C16FBB083CC5EE84B972B86AB4411 /* Frameworks */ = {
+		5EA5575F7CA814CCB728A75AF913A105 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BCBF5EB75894A2211695756347127E7 /* Foundation.framework in Frameworks */,
+				5B0E07FE8B9D595910DDFBB2A9AD24AF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,22 +105,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		132A8E323673697E5CFAFF02E563AFDA /* Pod */ = {
+		3AC9C9E9FCA1D76712537BD97FC0AB3C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4736D24E5A9F2F5EFADC7C11644AB326 /* CCarPrice_Calculator.podspec */,
-				AE5D38167884B9993E619C499DA01510 /* LICENSE */,
-				1C1813355E76325963875F02DF46EA1D /* README.md */,
+				C28E6A1E3D35A5DDBD0F0D7DF0C54A40 /* CCarPrice_Calculator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		40A034C4C16279638AD158B1A0D6BA74 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2673B1569337B00AF31B1B97DC02E136 /* CCarPrice_Calculator.podspec */,
+				75926871E75015E9E433C1420347DC11 /* LICENSE */,
+				E1F318DBF7E261612CB77882E7FCA8EA /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		3AC9C9E9FCA1D76712537BD97FC0AB3C /* Development Pods */ = {
+		42978596CA850722E5B4B0157DB5517D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				43A95880C6EA6768D05404407C397955 /* CCarPrice_Calculator */,
+				4CADCE436102AD134D2014714F487D84 /* CCarPrice_Calculator.modulemap */,
+				BBDB61D89BF640A44B99C8A7785931CC /* CCarPrice_Calculator-dummy.m */,
+				24A1F2F624E65980B44F6828A9569D00 /* CCarPrice_Calculator-Info.plist */,
+				D6262EFDC225E766E460F6D149599178 /* CCarPrice_Calculator-prefix.pch */,
+				400A72F3073268AAE2E2F16D1AB7FDC2 /* CCarPrice_Calculator-umbrella.h */,
+				6BADA004616DB9CA2679474F4A2C4079 /* CCarPrice_Calculator-xcframeworks.sh */,
+				752279B97DBCF32A45A1803813EAD4D0 /* CCarPrice_Calculator.debug.xcconfig */,
+				D40CDD0E9AA4539BCA7EF60383F931FF /* CCarPrice_Calculator.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CCarPrice_Calculator";
 			sourceTree = "<group>";
 		};
 		42B93428347F490661C6E4E7EB3E4466 /* Pods-CCarPrice_Calculator_Tests */ = {
@@ -133,33 +153,6 @@
 			);
 			name = "Pods-CCarPrice_Calculator_Tests";
 			path = "Target Support Files/Pods-CCarPrice_Calculator_Tests";
-			sourceTree = "<group>";
-		};
-		43A95880C6EA6768D05404407C397955 /* CCarPrice_Calculator */ = {
-			isa = PBXGroup;
-			children = (
-				C2FE8ABFC48A31C8488CFF70BA485F9E /* ReplaceMe.swift */,
-				905D41C0405474AB47837CAD11A2D1EB /* Frameworks */,
-				132A8E323673697E5CFAFF02E563AFDA /* Pod */,
-				5475D05A3863620FC2F3FEC82F17739F /* Support Files */,
-			);
-			name = CCarPrice_Calculator;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5475D05A3863620FC2F3FEC82F17739F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2B663E16ADEBFFF582101D5946371D83 /* CCarPrice_Calculator.modulemap */,
-				FC5B7E8684A4982ACCB01FB3381F2B12 /* CCarPrice_Calculator-dummy.m */,
-				C84E49879E3833B9C7E8A9E4B8033187 /* CCarPrice_Calculator-Info.plist */,
-				98DCF033DB41E71B27C49AF5F4B95C90 /* CCarPrice_Calculator-prefix.pch */,
-				20E452E271618B2EC0618CC1EE4A0C1D /* CCarPrice_Calculator-umbrella.h */,
-				C497769E98FD88725D1516688497678B /* CCarPrice_Calculator.debug.xcconfig */,
-				BDD92C66873BB7100A6A53EB871D261C /* CCarPrice_Calculator.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CCarPrice_Calculator";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -180,10 +173,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		905D41C0405474AB47837CAD11A2D1EB /* Frameworks */ = {
+		8CABF4E2FA8487A6043624D6B2F7EC27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E0E4D3EE6F1F577BCDA2800307C2D6A9 /* Flutter.framework */,
+				CA5917244FAD06D1F03C5528C151E97B /* App.xcframework */,
+				13781504C70E6799DDE0C76833A5AF6E /* Flutter.xcframework */,
+				AACFFEB51B7CD6B91BABF553BE15326F /* FlutterPluginRegistrant.xcframework */,
+				08252311CDA55D677831A97080EFFF28 /* image_picker_ios.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,6 +191,18 @@
 				42B93428347F490661C6E4E7EB3E4466 /* Pods-CCarPrice_Calculator_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C28E6A1E3D35A5DDBD0F0D7DF0C54A40 /* CCarPrice_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				42DED481D867355936842A84772EF807 /* ReplaceMe.swift */,
+				8CABF4E2FA8487A6043624D6B2F7EC27 /* Frameworks */,
+				40A034C4C16279638AD158B1A0D6BA74 /* Pod */,
+				42978596CA850722E5B4B0157DB5517D /* Support Files */,
+			);
+			name = CCarPrice_Calculator;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C36DED4AA92398B0156104D3647F3779 /* Pods-CCarPrice_Calculator_Example */ = {
@@ -244,19 +252,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81BF2E0C412A5C71F29E0B2D4CA2FEA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246089D3A8AF6A98BF5EB9F9EB66C3DB /* CCarPrice_Calculator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CFF130ED8DA3F448263F26D2D6A5BFB5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4FCAE5F2D670B7493B368B0A6ADF886C /* Pods-CCarPrice_Calculator_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1D7A420472E73627A2D35C37067ECB0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF8B6DB53F5D78B47879DB0462B192E4 /* CCarPrice_Calculator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +283,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				83A129599AFFD04FC8BBCCC50EB4527D /* PBXTargetDependency */,
+				F34CAC60AAD32C8F0B80E5A5ABBAEEF6 /* PBXTargetDependency */,
 			);
 			name = "Pods-CCarPrice_Calculator_Tests";
 			productName = Pods_CCarPrice_Calculator_Tests;
@@ -284,12 +292,13 @@
 		};
 		B069EEFA9967C63BF7E9E22D969DC18F /* CCarPrice_Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD6216B4377E0843C0830DF4A42F7521 /* Build configuration list for PBXNativeTarget "CCarPrice_Calculator" */;
+			buildConfigurationList = 0FCCE581DAEC2CE4B231C4C12E27C13F /* Build configuration list for PBXNativeTarget "CCarPrice_Calculator" */;
 			buildPhases = (
-				D1D7A420472E73627A2D35C37067ECB0 /* Headers */,
-				1A531C34681733755861110F3C6589EA /* Sources */,
-				D83C16FBB083CC5EE84B972B86AB4411 /* Frameworks */,
-				D76AE89050BA55B70D27CA8305EFDF94 /* Resources */,
+				81BF2E0C412A5C71F29E0B2D4CA2FEA7 /* Headers */,
+				429EE469524F18E074AABB703DE33524 /* [CP] Copy XCFrameworks */,
+				DB8C3B92EDC6473BE55FAB7F943EE0E3 /* Sources */,
+				5EA5575F7CA814CCB728A75AF913A105 /* Frameworks */,
+				D1607E4696E78DAEE5C1BA0A10FBECE9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -312,7 +321,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D6BC1891F641EAB42D30634A2E77D4DB /* PBXTargetDependency */,
+				47991838F8FD591B1D9258D627F8D3BD /* PBXTargetDependency */,
 			);
 			name = "Pods-CCarPrice_Calculator_Example";
 			productName = Pods_CCarPrice_Calculator_Example;
@@ -356,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D76AE89050BA55B70D27CA8305EFDF94 /* Resources */ = {
+		D1607E4696E78DAEE5C1BA0A10FBECE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,16 +381,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXSourcesBuildPhase section */
-		1A531C34681733755861110F3C6589EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		429EE469524F18E074AABB703DE33524 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3BB009215FAF22480B40BA0468C8E5C /* CCarPrice_Calculator-dummy.m in Sources */,
-				C9591735B588141BE0E6335491A6A04D /* ReplaceMe.swift in Sources */,
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/CCarPrice_Calculator/CCarPrice_Calculator-xcframeworks.sh",
+				"${PODS_ROOT}/../../ios_frameworks/App.xcframework",
+				"${PODS_ROOT}/../../ios_frameworks/Flutter.xcframework",
+				"${PODS_ROOT}/../../ios_frameworks/FlutterPluginRegistrant.xcframework",
+				"${PODS_ROOT}/../../ios_frameworks/image_picker_ios.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CCarPrice_Calculator/App.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CCarPrice_Calculator/Flutter.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CCarPrice_Calculator/FlutterPluginRegistrant.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CCarPrice_Calculator/image_picker_ios.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/CCarPrice_Calculator/CCarPrice_Calculator-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		5043EB3370E3D0082740652748973ABE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -398,24 +425,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB8C3B92EDC6473BE55FAB7F943EE0E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4276179958DABA923089666749D397 /* CCarPrice_Calculator-dummy.m in Sources */,
+				C37E26F51A17368E46E0D5B783CDE116 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		83A129599AFFD04FC8BBCCC50EB4527D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CCarPrice_Calculator_Example";
-			target = C8C475D646EA392B712F3D2581550C95 /* Pods-CCarPrice_Calculator_Example */;
-			targetProxy = 7E51EAE571B458DD9DCF14810097295E /* PBXContainerItemProxy */;
-		};
-		D6BC1891F641EAB42D30634A2E77D4DB /* PBXTargetDependency */ = {
+		47991838F8FD591B1D9258D627F8D3BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CCarPrice_Calculator;
 			target = B069EEFA9967C63BF7E9E22D969DC18F /* CCarPrice_Calculator */;
-			targetProxy = 3A9DFC56875B42A6A1FF32E6DE33BECF /* PBXContainerItemProxy */;
+			targetProxy = B3049122B4214BD3291E7C64C39A2E9B /* PBXContainerItemProxy */;
+		};
+		F34CAC60AAD32C8F0B80E5A5ABBAEEF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CCarPrice_Calculator_Example";
+			target = C8C475D646EA392B712F3D2581550C95 /* Pods-CCarPrice_Calculator_Example */;
+			targetProxy = 0417915C2CE58C4FA32C5E0CE3572293 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1A0260BF4FE113BD5D83208D53041666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752279B97DBCF32A45A1803813EAD4D0 /* CCarPrice_Calculator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCarPrice_Calculator/CCarPrice_Calculator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCarPrice_Calculator/CCarPrice_Calculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CCarPrice_Calculator/CCarPrice_Calculator.modulemap";
+				PRODUCT_MODULE_NAME = CCarPrice_Calculator;
+				PRODUCT_NAME = CCarPrice_Calculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		216655BBE788A730BE0BE24E4BB5BD82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EDAF9794398522A540773ABDD1EBFB5 /* Pods-CCarPrice_Calculator_Example.release.xcconfig */;
@@ -450,9 +518,9 @@
 			};
 			name = Release;
 		};
-		5338016CEA763298E2D873F8EEB57BCF /* Debug */ = {
+		384ACFB506FC1BE9EE9391F4321BC058 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C497769E98FD88725D1516688497678B /* CCarPrice_Calculator.debug.xcconfig */;
+			baseConfigurationReference = D40CDD0E9AA4539BCA7EF60383F931FF /* CCarPrice_Calculator.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -477,10 +545,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -541,39 +610,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8104299E27194E384D8E8785D943B58A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDD92C66873BB7100A6A53EB871D261C /* CCarPrice_Calculator.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CCarPrice_Calculator/CCarPrice_Calculator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CCarPrice_Calculator/CCarPrice_Calculator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/CCarPrice_Calculator/CCarPrice_Calculator.modulemap";
-				PRODUCT_MODULE_NAME = CCarPrice_Calculator;
-				PRODUCT_NAME = CCarPrice_Calculator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -746,6 +782,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0FCCE581DAEC2CE4B231C4C12E27C13F /* Build configuration list for PBXNativeTarget "CCarPrice_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0260BF4FE113BD5D83208D53041666 /* Debug */,
+				384ACFB506FC1BE9EE9391F4321BC058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -769,15 +814,6 @@
 			buildConfigurations = (
 				B01A75CD5043B67B91FD26B1837431DD /* Debug */,
 				F5C32A2D106BB44CB9E95D427BE4B698 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD6216B4377E0843C0830DF4A42F7521 /* Build configuration list for PBXNativeTarget "CCarPrice_Calculator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5338016CEA763298E2D873F8EEB57BCF /* Debug */,
-				8104299E27194E384D8E8785D943B58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

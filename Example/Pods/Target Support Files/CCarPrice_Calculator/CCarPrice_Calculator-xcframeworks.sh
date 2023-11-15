@@ -23,6 +23,12 @@ variant_for_slice()
   "App.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
+  "Flutter.xcframework/ios-arm64")
+    echo ""
+    ;;
+  "Flutter.xcframework/ios-arm64_x86_64-simulator")
+    echo "simulator"
+    ;;
   "FlutterPluginRegistrant.xcframework/ios-arm64")
     echo ""
     ;;
@@ -45,6 +51,12 @@ archs_for_slice()
     echo "arm64"
     ;;
   "App.xcframework/ios-arm64_x86_64-simulator")
+    echo "arm64 x86_64"
+    ;;
+  "Flutter.xcframework/ios-arm64")
+    echo "arm64"
+    ;;
+  "Flutter.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   "FlutterPluginRegistrant.xcframework/ios-arm64")
@@ -141,7 +153,8 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../App.xcframework" "CCarPrice_Calculator" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/../../FlutterPluginRegistrant.xcframework" "CCarPrice_Calculator" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/../../image_picker_ios.xcframework" "CCarPrice_Calculator" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../ios_frameworks/App.xcframework" "CCarPrice_Calculator" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../ios_frameworks/Flutter.xcframework" "CCarPrice_Calculator" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../ios_frameworks/FlutterPluginRegistrant.xcframework" "CCarPrice_Calculator" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../ios_frameworks/image_picker_ios.xcframework" "CCarPrice_Calculator" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 

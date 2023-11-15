@@ -22,7 +22,7 @@
     "ios": "10.0"
   },
   "source_files": "CCarPrice_Calculator/Classes/**/*",
-  "vendored_frameworks": "ios_frameworks/*.framework",
+  "vendored_frameworks": "ios_frameworks/*.xcframework",
   "requires_arc": true,
   "static_framework": true,
   "ios": {

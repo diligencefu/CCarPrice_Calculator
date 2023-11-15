@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = {'VALID_ARCHS' => 'armv7 arm64 x86_64' }
   s.ios.deployment_target = '10.0'
   s.source_files = 'CCarPrice_Calculator/Classes/**/*'
-  s.vendored_frameworks   = 'ios_frameworks/*.framework'
+  s.vendored_frameworks   = 'ios_frameworks/*.xcframework'
   s.requires_arc          = true
 #  s.dependency 'Flutter'
   s.static_framework = true

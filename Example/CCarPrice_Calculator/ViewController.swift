@@ -8,6 +8,7 @@
 
 import UIKit
 import CCarPrice_Calculator
+import Flutter
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,12 @@ class ViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         show(CCHelper(), sender: nil)
+        
+        
+//        let flutterVc = FlutterViewController.init()
+//        flutterVc.setInitialRoute("route")
+//        let messageChannel = FlutterMethodChannel.init(name: "com.pages.your/native_get", binaryMessenger: flutterVc.binaryMessenger)
+//        self.present(flutterVc, animated: true)
     }
     
 
